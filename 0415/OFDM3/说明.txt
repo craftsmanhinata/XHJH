@@ -1,0 +1,22 @@
+主程序：                 OFDM
+
+保护间隔：               guard_interval
+                         remove_GI
+
+画对照的信道BER 曲线：   ber_QAM
+                         Q
+
+编解码：                 convolution313
+                         dist313
+                         vitebi313
+
+调制：                   qpsk
+                         qam16
+                         qam64
+
+解调：                   demoduqpsk
+                         demoduqam16
+                         demoduqam64
+
+交织：                   interlacecode
+                         interlacedecode
